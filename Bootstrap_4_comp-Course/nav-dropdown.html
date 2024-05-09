@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!------------------------------------bootstrap.css------------------------------------>
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/bootstrap.css">
+
+  <!-----------------------------------mdb.css------------------------------------------->
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/mdb.css">
+
+ <!------------------------------------style.css----------------------------------------->
+
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/style.css">
+   
+ <!------------------------------------jquery.js----------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/jquery-3.3.1.min.js"></script>
+
+  <!------------------------------------popper.js----------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/popper.min.js"></script>
+
+  <!-----------------------------------bootstrap.js--------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/bootstrap.js"></script>
+
+
+  <!-------------------------------------mdb.js------------------------------------------->
+      <script type="text/javascript" src="mdbootstrap/js/mdb.js"></script>
+        
+
+   <!------------fontawsome------------------------------------------------------->
+   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>     
+
+	<title>dropdown</title>
+	<style type="text/css">
+		.dropdown-item:hover{
+			background-color: darkred;
+			color: white !important;
+			box-shadow: 0 0 10px black;
+		}
+	</style>
+</head>
+<body>
+	     <nav class="navbar navbar-dark bg-secondary navbar-expand-lg">
+	     	<img src="logo.svg" class="navbar-brand bg-white">
+	     	<button class="navbar-toggler" data-toggle="collapse" data-target="#demo">
+	     		<span class="navbar-toggler-icon"></span>
+	     	</button>
+	     	<div class="collapse navbar-collapse" id="demo">
+	     		<ul class="navbar-nav">
+	     			<li class="nav-item">
+	     				<a href="#" class="nav-link"><i class="fa fa-home"></i> Home</a>
+	     			</li>
+	     			<li class="nav-item">
+	     				<a href="#" class="nav-link"><i class="fa fa-id-card"></i> about</a>
+	     			</li>
+	     			<li class="nav-item">
+	     				<a href="#" class="nav-link"><i class="fa fa-cogs"></i> services</a>
+	     			</li>
+	     			<li class="nav-item dropdown">
+	     				<a href="#" class="nav-link" data-toggle="dropdown"><i class="fa fa-laptop"></i> courses
+	     					<i class="fa fa-caret-down"></i></a>
+	     					<div class="dropdown-menu p-2">
+	     						<a href="#" class="dropdown-item">HTML</a>
+	     						<a href="#" class="dropdown-item">CSS</a>
+	     						<a href="#" class="dropdown-item">bootstrap</a>
+	     						<a href="#" class="dropdown-item">js</a>
+	     					</div>
+	     			</li>
+	     		</ul>
+	     		<form class="form-inline ml-auto">
+	     			<div class="form-group">
+	     				<div class="input-group-prepend">
+	     					<span class="input-group-text"><i class="fa fa-search"></i></span>
+	     				</div>
+	     			  	<input type="text" name="#" class="form-control" placeholder="search">
+	     			</div>
+	     			<div>
+	     				<input type="submit" name="#" class="form-control">
+	     			</div>
+	     		</form>
+	     	</div>
+	     	
+	     </nav>
+
+
+        <div class="container mt-5">
+        	 <h1 class="display-3 font-">welcome to navbar dropdown example</h1>
+        	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        	 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>    
+
+</body>
+</html>

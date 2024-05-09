@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>button</title>
+	 <!------------------------------------bootstrap.css------------------------------------>
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/bootstrap.css">
+
+  <!-----------------------------------mdb.css------------------------------------------->
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/mdb.css">
+
+ <!------------------------------------style.css----------------------------------------->
+
+     <link rel="stylesheet" type="text/css" href="mdbootstrap/css/style.css">
+   
+ <!------------------------------------jquery.js----------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/jquery-3.3.1.min.js"></script>
+
+  <!------------------------------------popper.js----------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/popper.min.js"></script>
+
+  <!-----------------------------------bootstrap.js--------------------------------------->
+
+      <script type="text/javascript" src="mdbootstrap/js/bootstrap.js"></script>
+
+
+  <!-------------------------------------mdb.js------------------------------------------->
+      <script type="text/javascript" src="mdbootstrap/js/mdb.js"></script>
+        
+</head>
+<body>
+
+	   <div class="container mt-5">
+	   	 <h2>simple button</h2>
+	   		<button class="btn text-dark">simple button</button>
+	   		<button class="btn btn-primary">primary</button>
+	   		<button class="btn btn-dark">dark</button>
+	   		<button class="btn btn-info">info</button>
+	   		<button class="btn btn-secondary">secondary</button>
+	   		<button class="btn btn-warning">warning</button>
+	   		<button class="btn btn-danger">danger</button>
+	   		<button class="btn btn-light">light</button>
+	   		<button class="btn btn-black ">black</button>
+	   		<button class="btn btn-white text-dark">white</button>
+	   </div>
+
+	   <!------------------btn-link-------------------------------------------->
+	   <hr>
+	    
+	     <div class="container">
+	     	 <h2>btn link</h2>
+	     	<a href="#" class="btn btn-primary">link</a>
+   <!------------------btn-input------------------------------------------------->
+<hr>
+	     	<input type="button" name="#" class="btn btn-primary" value="input - button">
+	     	<input type="submit" name="#" class="btn btn-warning" value="submit">
+	     	<input type="reset" name="#" class="btn btn-info" value="Reset">
+
+	     	<hr>
+
+	 <!------------------btn-outline------------------------------------------------->
+       <h1>outline button</h1>
+	         
+	         <button class="btn btn-outline-primary">Primary</button>
+	         <button class="btn btn-outline-info">info</button>
+	         <button class="btn btn-outline-secondary">Primary</button>
+	         <button class="btn btn-outline-warning">Primary</button>
+	         <button class="btn btn-outline-danger">Primary</button>
+	         <button class="btn btn-outline-light">Primary</button>
+	         <button class="btn btn-outline-dark">Primary</button>
+
+
+	 <!------------------btn-large & small------------------------------------------------->
+	       <h1>button size</h1>
+	       <button class="btn btn-primary btn-lg">button large</button>
+	       <button class="btn btn-secondary">button normal</button>
+	       <button class="btn btn-primary btn-sm">button small</button>
+
+
+	       <hr>
+<!----------------------------btn-grid //full length -------------------------------------->
+         
+          <h1>full width button</h1>
+          
+           <button class="btn btn-primary btn-block">grid button</button>
+         
+	     </div>
+
+	     <hr>
+<!----------------------------btn-grid //full length --gap b/w---------------------------->
+	     	<h3>gap b/w button/ block level botton</h3>
+	    <div class="d.grid m-3">
+	     <button class="btn btn-primary btn-block">full width button</button>
+	     <button class="btn btn-secondary btn-block">secondary</button>
+	     <button class="btn btn-warning btn-block">warning</button>
+	     <button class="btn btn-success btn-block">success</button>
+
+
+ <!-------------------------button active and disabled------------------------------------->
+
+ 			<button class="btn btn-primary">normal</button>
+ 			<button class="btn btn-primary active">active</button>
+ 			<button class="btn btn-primary disabled">disabled</button>
+ 			<a href="#" class="btn btn-primary disabled">link disabled</a>
+
+  <!----------------------spinner border button----------------------------------------->
+
+       <h1>spinner-border button</h1>
+       <button class="btn btn-primary">
+       		<span class="spinner-border"></span>loading..
+       		
+       </button>
+       <button class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>loading..</button>
+
+        <button class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span>loading..</button>
+
+
+
+<!---------------------------------------button group------------------------->
+               <h1>button group/ button dopdown</h1>
+             <div class="btn-group">
+             	<button class="btn btn-primary">cources</button>
+             	<button class="btn btn-secondary" data-toggle="dropdown">*</button>
+             	    <div class="dropdown-menu">
+             	    	<a href="#" class="dropdown-item">data1</a>
+             	    	<a href="#" class="dropdown-item">data2</a>
+             	    	<a href="#" class="dropdown-item">data3</a>
+             	    	<a href="#" class="dropdown-item">data4</a>
+             	    	<a href="#" class="dropdown-item">data5</a>
+             	    	
+             	    </div>
+             </div>
+
+             <hr>
+
+      <!------------------------button group-------------------------------------->
+
+           <h1>button group</h1>
+            <div class="btn-group">
+            	<button class="btn btn-primary">primary</button>
+            	<button class="btn btn-secondary">secondary</button>
+            	<button class="btn btn-info">warning</button>
+            </div>
+
+       </div>
+
+
+
+
+
+       <hr>
+        <div class="container btn-danger">
+          <h1>button group</h1>
+            <div class="btn-group m-5 ">
+            	<button class="btn btn-primary">primary</button>
+            	<button class="btn btn-secondary">secondary</button>
+            	<button class="btn btn-info">warning</button>
+            </div>
+         </div>
+
+
+             <hr>
+
+      <!------------------------button toolbar------------------------------------->
+
+      <div class="container ">
+      	<h1>button toolbar</h1>
+      	<div class="btn btn-toolbar">
+            <div class="btn-group">
+            	<button class="btn btn-primary">primary</button>
+            	<button class="btn btn-secondary">secondary</button>
+            	<button class="btn btn-info">warning</button>
+            </div>
+            <div class="btn-group">
+            	<button class="btn btn-primary">primary</button>
+            	<button class="btn btn-secondary">secondary</button>
+            	
+            </div>
+            <div class="btn-group">
+            	<button class="btn btn-primary">primary</button>
+            	<button class="btn btn-secondary">secondary</button>
+            	
+            </div>
+
+          </div>
+     </div>
+
+</body>
+</html>

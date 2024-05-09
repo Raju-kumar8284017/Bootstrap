@@ -1,0 +1,74 @@
+*{
+
+}
+.fullscreen-landing{
+	background-color: white;
+	background-image: url(img/slider11.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.overlay{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+
+}
+.search-box{
+	width: 300px;
+	height: 50px;
+}
+.mobilefa{
+   color: orange;
+}
+
+.plantfa{
+	color: green;
+}
+
+.layerfaa{
+	color: lightblue;
+}
+
+.btn-cust{
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.subscribe-overlay{
+	background-color: rgba(0, 0, 0, 0.01);
+	height: 100%;
+	opacity: 5;
+}
+
+.subscribe{
+	background-color: white;
+	background-image: url(img/slider11.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+}
+
+.navbar{
+	position: sticky;
+	z-index: 1;
+	top: 0;
+}
+
+
+
+@media (max-width:579){
+	#home{
+		width: 250px;
+	}
+	 .display-4{
+	 	width: 10px !important;
+	 }
+	 .hmp{
+	 	display: none !important;
+	 }
+}
